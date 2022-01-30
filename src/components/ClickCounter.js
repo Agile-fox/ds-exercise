@@ -1,4 +1,4 @@
-import  React, { useState } from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import Button from "./Button"
 
@@ -89,7 +89,7 @@ const ButtonWrapper = styled.div`
     grid-gap: 16px;
   }
 
-  a {
+  /* a {
     border-radius: 4px;
-  }
+  } */
 `
