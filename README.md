@@ -9,13 +9,29 @@ small - 40px height. <br />
 normal - 32px height. <br />
 large - 24px height.
 
-**Other props:** <br />
-text - We are using text prop instead of children to pass text to the component.<br />
-href - Same as in a html element.<br />
-alt - Same as in a html element.<br />
-target - Same as in a html element.
+**Other attributes:** <br />
+text - We are using text prop instead of children to pass text to the button component.<br />
+
+Other attributes are a copy of html anchor atrributes, which are:
+href </br>
+hreflang </br>
+ping </br>
+referrerpolicy </br>
+rel </br>
+target </br>
+type </br>
 
 ## Example usage:
+
+First we have to import Button component.
+
+```
+import Button from "./Button"
+```
+
+After that we have to specify exactly 1 size attirbute: </br>
+small normal or large.</br>
+After that we can freely use all of the anchor attributes except Deprecated ones.
 
 ```
     <Button
