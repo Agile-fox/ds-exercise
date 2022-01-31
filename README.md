@@ -17,11 +17,12 @@ target - Same as in a html element.
 
 ## Example usage:
 
-```<Button
-          text="Click me"
-          large
-          href="#"
-        />
+```
+    <Button
+        text="Click me"
+        large
+        href="#"
+    />
 
 ```
 
@@ -29,14 +30,14 @@ target - Same as in a html element.
 
 ```
  <Button
-          text="Click me"
-          large
-          onClick={() =>
-            clickCounter !== 4 && setClickCounter(clickCounter + 1)
-          }
-          disabled={clickCounter === 4 && "disable"}
-          href="#"
-        />
+    text="Click me"
+    large
+    onClick={() =>
+        clickCounter !== 4 && setClickCounter(clickCounter + 1)
+    }
+    disabled={clickCounter === 4 && "disable"}
+    href="#"
+/>
 
 ```
 
