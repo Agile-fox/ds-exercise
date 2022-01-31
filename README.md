@@ -1,7 +1,7 @@
 # ds-exercise
 
 Live version can be found here : https://cocky-meninsky-4374c6.netlify.app/# </br>
-This button component basically allows to select a wanted size and disable it in a simple way.
+This button component basically allows to select a wanted size and disable it in a simple way with all of the anchor attributes except deprecated ones.
 
 To use we have to declare 1 size and other props we want to use, other props should mimic HTML anchor attributes.
 
@@ -23,7 +23,7 @@ Rest of them is a copy of html anchor atrributes, which are:
 - referrerpolicy
 - rel
 - target
-- type
+- type </br>
   **Deprecated atrributes are not being used.**
 
 ## Example usage:
