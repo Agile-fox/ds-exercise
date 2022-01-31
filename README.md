@@ -24,7 +24,8 @@ Rest of them is a copy of html anchor atrributes, which are:
 - rel
 - target
 - type </br>
-  **Deprecated atrributes are not being used.**
+
+**Deprecated atrributes are not being used.**
 
 ## Example usage:
 
