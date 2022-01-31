@@ -1,5 +1,6 @@
 # ds-exercise
 
+Live version can be found here : https://cocky-meninsky-4374c6.netlify.app/# </br>
 This button component basically allows to select a wanted size and disable it in a simple way.
 
 To use we have to declare 1 size and other props we want to use, other props should mimic HTML anchor attributes.
