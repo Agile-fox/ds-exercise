@@ -23,7 +23,7 @@ Rest of them is a copy of html anchor atrributes, which are:
 - rel
 - target
 - type
-- Deprecated atrributes are not being used.
+  **Deprecated atrributes are not being used.**
 
 ## Example usage:
 
@@ -34,7 +34,7 @@ import Button from "./Button"
 ```
 
 After that we have to specify exactly 1 size attirbute: </br>
-small normal or large.</br>
+small, normal or large.</br>
 After that we can freely use all of the anchor attributes except Deprecated ones.
 
 ```
