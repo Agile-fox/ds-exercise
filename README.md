@@ -14,8 +14,9 @@ To use we have to declare 1 size and other props we want to use, other props sho
 **Other attributes:** <br />
 
 - text - We are using text prop instead of children to pass text to the button component.</br>
-- disabled - While adding this atrribute button will be disabled. </br>
-  Rest of them is a copy of html anchor atrributes, which are:
+- disabled - While adding this atrribute button will be disabled.</br>
+
+Rest of them is a copy of html anchor atrributes, which are:
 
 - href
 - hreflang
