@@ -13,6 +13,12 @@ const Button = ({
   href,
   focused,
   target,
+  alt,
+  rel,
+  hreflang,
+  ping,
+  referrerpolicy,
+  type,
 }) => {
   return (
     <StyledButton
@@ -26,6 +32,12 @@ const Button = ({
       onClick={onClick}
       href={href}
       target={target}
+      alt={alt}
+      rel={rel}
+      hreflang={hreflang}
+      ping={ping}
+      referrerpolicy={referrerpolicy}
+      type={type}
     >
       {text}
     </StyledButton>
