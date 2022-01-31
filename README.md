@@ -5,14 +5,14 @@ This button component basically allows to select a wanted size and disable it in
 To use we have to declare 1 size and other props we want to use, other props should mimic HTML anchor attributes.
 
 **Sizes:**
-small - 40px height
-normal - 32px height
-large - 24px height
+small - 40px height. <br />
+normal - 32px height. <br />
+large - 24px height.
 
 **Other props:**
-text - We are using text prop instead of children to pass text to the component.
-href - Same as in a html element.
-alt - Same as in a html element.
+text - We are using text prop instead of children to pass text to the component.<br />
+href - Same as in a html element.<br />
+alt - Same as in a html element.<br />
 target - Same as in a html element.
 
 ## Example usage:
